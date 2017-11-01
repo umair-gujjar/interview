@@ -2,7 +2,7 @@
 
 ## Steps
 
-1\. Clone this repository
+1\. Clone this repository `git@github.com:casecommons/interview`
 
 2\. Checkout a new branch with your name `christiancalloway`
 
