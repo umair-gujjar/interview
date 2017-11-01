@@ -29,5 +29,8 @@ Create an executable bash script to fulfill the following requirements:
   *Validity*
   - It shoud print the HTTP status-code of the response from http://192.168.99.100:4000/index.html
 
+  **Cleanup**
+  - It should remove the container `interview`
+
   **Bonus**
   - Perform the same command against http://192.168.99.100:400/index.html and notice the incorrect port; assuming that you're using pipes, show that the first command failed
