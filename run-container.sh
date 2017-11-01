@@ -11,7 +11,7 @@ docker run \
   --name interview \
   --publish 4000:80 \
   --volume `pwd`/$argument:/usr/share/nginx/html/index.html \
-    nginx:latest 2>&1 >/dev/null
+    nginx:latest
 
 curl -Is http://192.168.99.100:4000/index.html \
   | head -n1 \
